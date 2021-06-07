@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+	font-family:'Roboto';
+}
+
+body{
+    width: 100%;
+	background: url(angga-pratama-GAXTZrJmsfY-unsplash.jpg);
+	background-size:1500px;
+    background-repeat: no-repeat;
+}
+
+section{
+    margin-top: 45px;
+    width: 100%;
+}
+
+/* CARD FORM */
+.card{
+    position: relative;
+    z-index: 99999;
+    width: 432px;
+    margin: auto;
+    height: 220px;  
+    background: #E8ECF0;
+    box-shadow: 0px 30px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: none;
+}
+
+.card .row{
+    height: 120px;
+}
+
+.card .judul{
+    font-weight: bold;
+    padding: 25px;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+}
+
+.card .location{
+    margin-top: -10px;
+    padding-left: 40px;
+    font-family:'Roboto';
+	font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    display:flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: rgba(0,0,0,0.5);
+}
+
+.card .input-location{
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-align: left;
+    margin: 0 25px;
+    width: 379px;
+    height: 75px;
+    background: #FFFFFF;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.card .check{
+	font-family: 'Roboto';
+    padding:10px 40px;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: rgba(0,0,0,0.5);
+}
+
+.card .check span{
+    padding-left: 125px;
+}
+
+.card .input-checkin{
+	padding-left: 15px;
+	letter-spacing: 1.5px;
+	font-size: 22px;
+	margin: -20px 25px;
+	width: 174px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+
+.card .input-checkout{
+	padding-left: 25px;
+	letter-spacing: 1.5px;
+	font-size: 22px;
+	margin: -55px 25px;
+    float: right;
+	width: 174px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+}
+
+.card .rooms{
+	font-family: 'Roboto';
+    padding: 20px 40px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.card .rooms .adults{
+	padding-left: 70px;
+}
+.card .rooms .kids{
+	padding-left: 75px;
+}
+.card .room{
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0px 25px;
+	width: 114px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+}
+.card .adult{
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0px -25px;
+	width: 114px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+}
+.card .kid{
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0px 25px;
+	width: 114px;
+	height: 75px;
+	background: #FFFFFF;
+	box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+}
+
+.properties{
+	z-index: -99999;
+	margin: 53px auto;
+	width: 379px;
+}
+.properties .isi{
+	width: 379px;
+	height: 75px;
+	background: #FF455B;
+	border-radius: 0 0 10px 10px;
+}
+.properties .isi p{
+	padding-top: 30px; 
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+
+/*Responsive*/
+@media (max-width: 400px){
+	body{
+		height: 700px;
+		width: 100%;
+	}
+	.judul{
+		text-align: center;
+	}
+	.card{
+		background-color: transparent;
+	}
+	.properties{
+		margin: 0px 25px;
+	}
+	.properties .isi p{
+		padding-top: 33px;
+	}
+}
